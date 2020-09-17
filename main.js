@@ -1,18 +1,18 @@
-console.log("hello world")
-// 3 types of JavaScript
-// Strings - "" +
-// Numbers - 24234 : + - * /
-// Boolean - true/false : && || not
-// JavaScript is Turing complete!!
-"halló heimur" +
-32343 + 
-true && || not
-false
+
+var strawberry = document.getElementById('strawberry').value;
+var banana = document.getElementById('banana').value;
+var lemon = document.getElementById('lemon').value;
+var mango = document.getElementById('mango').value;
 
 
-4+5
+function test() {
+    var apple = document.getElementById('apple').value;
+    if(apple === "red" || apple === "Red" ){
+    document.getElementById('banana').value = "correct";
+    } else {
+    document.getElementById('banana').value = "incorrect, fool.";
+    }
 
-"4" + 5
-"4" + "5"
 
-var name = "Hannes"
+    console.log("test");
+}
